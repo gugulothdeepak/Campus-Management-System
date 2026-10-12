@@ -1,0 +1,947 @@
+{
+  "users": [
+    {
+      "_id": "usr_admin_01",
+      "name": "Dr. S. Ramanathan",
+      "email": "admin@college.edu",
+      "password": "$2a$10$jdtFdVRJ9.pflo/Z2wbtoeavGGGADZko3laMAtioNTChuHAs3pEuK",
+      "role": "ADMIN",
+      "department": "Academic Administration",
+      "designation": "Principal & Chief Administrator",
+      "createdAt": "2026-08-01T09:00:00.000Z"
+    },
+    {
+      "_id": "usr_fac_01",
+      "name": "Prof. Rajesh Sharma",
+      "email": "faculty@college.edu",
+      "password": "$2a$10$Vh5ycKc9Q1vkdM/YMLSBAeHVDV8J8PFP1eso5DusVjmvmROpiV5YS",
+      "role": "FACULTY",
+      "department": "Computer Science & Engineering",
+      "designation": "Associate Professor & HoD CSE",
+      "assignedClasses": [
+        "B.Tech CSE - 3rd Year (Sem 5)",
+        "B.Tech CSE - 4th Year (Sem 7)"
+      ],
+      "assignedSubjects": [
+        "CS-501",
+        "CS-504"
+      ],
+      "createdAt": "2026-08-01T09:00:00.000Z"
+    },
+    {
+      "_id": "usr_fac_02",
+      "name": "Dr. Anita Desai",
+      "email": "anita@college.edu",
+      "password": "$2a$10$Vh5ycKc9Q1vkdM/YMLSBAeHVDV8J8PFP1eso5DusVjmvmROpiV5YS",
+      "role": "FACULTY",
+      "department": "Computer Science & Engineering",
+      "designation": "Assistant Professor",
+      "assignedClasses": [
+        "B.Tech CSE - 3rd Year (Sem 5)"
+      ],
+      "assignedSubjects": [
+        "CS-502"
+      ],
+      "createdAt": "2026-08-01T09:00:00.000Z"
+    },
+    {
+      "_id": "usr_fac_03",
+      "name": "Prof. Suresh Kumar",
+      "email": "suresh@college.edu",
+      "password": "$2a$10$Vh5ycKc9Q1vkdM/YMLSBAeHVDV8J8PFP1eso5DusVjmvmROpiV5YS",
+      "role": "FACULTY",
+      "department": "Computer Science & Engineering",
+      "designation": "Assistant Professor",
+      "assignedClasses": [
+        "B.Tech CSE - 3rd Year (Sem 5)",
+        "B.Tech CSE - 2nd Year (Sem 3)"
+      ],
+      "assignedSubjects": [
+        "CS-503"
+      ],
+      "createdAt": "2026-08-01T09:00:00.000Z"
+    },
+    {
+      "_id": "usr_stu_01",
+      "name": "Deepak Kumar",
+      "email": "student@college.edu",
+      "password": "$2a$10$jStrBDPZovkfRFyoexjfle3ld.DJhkCmemXtO7ojeP289Qxqm/8km",
+      "role": "STUDENT",
+      "department": "Computer Science & Engineering",
+      "rollNo": "24CS001",
+      "semester": "B.Tech CSE - 3rd Year (Sem 5)",
+      "section": "A",
+      "academicYear": "2026-2027",
+      "createdAt": "2026-08-10T09:00:00.000Z"
+    },
+    {
+      "_id": "usr_stu_02",
+      "name": "Priya Sharma",
+      "email": "priya@college.edu",
+      "password": "$2a$10$jStrBDPZovkfRFyoexjfle3ld.DJhkCmemXtO7ojeP289Qxqm/8km",
+      "role": "STUDENT",
+      "department": "Computer Science & Engineering",
+      "rollNo": "24CS002",
+      "semester": "B.Tech CSE - 3rd Year (Sem 5)",
+      "section": "A",
+      "academicYear": "2026-2027",
+      "createdAt": "2026-08-10T09:00:00.000Z"
+    },
+    {
+      "_id": "usr_stu_03",
+      "name": "Rahul Verma",
+      "email": "rahul@college.edu",
+      "password": "$2a$10$jStrBDPZovkfRFyoexjfle3ld.DJhkCmemXtO7ojeP289Qxqm/8km",
+      "role": "STUDENT",
+      "department": "Computer Science & Engineering",
+      "rollNo": "24CS003",
+      "semester": "B.Tech CSE - 3rd Year (Sem 5)",
+      "section": "A",
+      "academicYear": "2026-2027",
+      "createdAt": "2026-08-10T09:00:00.000Z"
+    },
+    {
+      "_id": "usr_stu_04",
+      "name": "Sneha Patel",
+      "email": "sneha@college.edu",
+      "password": "$2a$10$jStrBDPZovkfRFyoexjfle3ld.DJhkCmemXtO7ojeP289Qxqm/8km",
+      "role": "STUDENT",
+      "department": "Computer Science & Engineering",
+      "rollNo": "24CS004",
+      "semester": "B.Tech CSE - 3rd Year (Sem 5)",
+      "section": "A",
+      "academicYear": "2026-2027",
+      "createdAt": "2026-08-10T09:00:00.000Z"
+    },
+    {
+      "_id": "usr_stu_05",
+      "name": "Amit Kumar",
+      "email": "amit@college.edu",
+      "password": "$2a$10$jStrBDPZovkfRFyoexjfle3ld.DJhkCmemXtO7ojeP289Qxqm/8km",
+      "role": "STUDENT",
+      "department": "Computer Science & Engineering",
+      "rollNo": "24CS005",
+      "semester": "B.Tech CSE - 3rd Year (Sem 5)",
+      "section": "A",
+      "academicYear": "2026-2027",
+      "createdAt": "2026-08-10T09:00:00.000Z"
+    },
+    {
+      "_id": "usr_stu_06",
+      "name": "Ananya Reddy",
+      "email": "ananya@college.edu",
+      "password": "$2a$10$jStrBDPZovkfRFyoexjfle3ld.DJhkCmemXtO7ojeP289Qxqm/8km",
+      "role": "STUDENT",
+      "department": "Computer Science & Engineering",
+      "rollNo": "24CS006",
+      "semester": "B.Tech CSE - 3rd Year (Sem 5)",
+      "section": "A",
+      "academicYear": "2026-2027",
+      "createdAt": "2026-08-10T09:00:00.000Z"
+    },
+    {
+      "_id": "usr_stu_07",
+      "name": "Vikram Singh",
+      "email": "vikram@college.edu",
+      "password": "$2a$10$jStrBDPZovkfRFyoexjfle3ld.DJhkCmemXtO7ojeP289Qxqm/8km",
+      "role": "STUDENT",
+      "department": "Computer Science & Engineering",
+      "rollNo": "24CS007",
+      "semester": "B.Tech CSE - 3rd Year (Sem 5)",
+      "section": "A",
+      "academicYear": "2026-2027",
+      "createdAt": "2026-08-10T09:00:00.000Z"
+    },
+    {
+      "_id": "usr_stu_08",
+      "name": "Pooja Joshi",
+      "email": "pooja@college.edu",
+      "password": "$2a$10$jStrBDPZovkfRFyoexjfle3ld.DJhkCmemXtO7ojeP289Qxqm/8km",
+      "role": "STUDENT",
+      "department": "Computer Science & Engineering",
+      "rollNo": "24CS008",
+      "semester": "B.Tech CSE - 3rd Year (Sem 5)",
+      "section": "A",
+      "academicYear": "2026-2027",
+      "createdAt": "2026-08-10T09:00:00.000Z"
+    },
+    {
+      "_id": "usr_stu_09",
+      "name": "Rohan Gupta",
+      "email": "rohan@college.edu",
+      "password": "$2a$10$jStrBDPZovkfRFyoexjfle3ld.DJhkCmemXtO7ojeP289Qxqm/8km",
+      "role": "STUDENT",
+      "department": "Computer Science & Engineering",
+      "rollNo": "24CS009",
+      "semester": "B.Tech CSE - 3rd Year (Sem 5)",
+      "section": "A",
+      "academicYear": "2026-2027",
+      "createdAt": "2026-08-10T09:00:00.000Z"
+    },
+    {
+      "_id": "usr_stu_10",
+      "name": "Meera Nair",
+      "email": "meera@college.edu",
+      "password": "$2a$10$jStrBDPZovkfRFyoexjfle3ld.DJhkCmemXtO7ojeP289Qxqm/8km",
+      "role": "STUDENT",
+      "department": "Computer Science & Engineering",
+      "rollNo": "24CS010",
+      "semester": "B.Tech CSE - 3rd Year (Sem 5)",
+      "section": "A",
+      "academicYear": "2026-2027",
+      "createdAt": "2026-08-10T09:00:00.000Z"
+    },
+    {
+      "_id": "usr_1791821015781_173",
+      "createdAt": "2026-10-12T16:03:35.781Z",
+      "name": "Harish",
+      "email": "24eg112d01@anurag.edu.in",
+      "password": "$2a$10$IxvyV9MQ7pRknzkz6wM.tOAMZv7wrT/9oAYYuqBo3SQW42JOUcDWW",
+      "role": "STUDENT",
+      "rollNo": "24EG112D01",
+      "department": "Information Technology",
+      "semester": "B.Tech CSE - 3rd Year (Sem 5)",
+      "section": "A",
+      "academicYear": "2026-2027"
+    },
+    {
+      "_id": "usr_1791822461199_307",
+      "createdAt": "2026-10-12T16:27:41.200Z",
+      "name": "Srinivas",
+      "email": "24eg112d02@anurag.edu.in",
+      "password": "$2a$10$yD4EMAyg58hccc/0A0Hc/.8Y4llxoT3sYEEHAeXG7APEIaozADfVa",
+      "role": "STUDENT",
+      "rollNo": "24EG112D02",
+      "department": "Information Technology",
+      "semester": "B.Tech CSE - 3rd Year (Sem 5)",
+      "section": "A",
+      "academicYear": "2026-2027"
+    }
+  ],
+  "classes": [
+    {
+      "_id": "cls_01",
+      "name": "B.Tech CSE - 3rd Year (Sem 5)",
+      "department": "Computer Science & Engineering",
+      "semester": "Sem 5",
+      "section": "A",
+      "academicYear": "2026-2027"
+    },
+    {
+      "_id": "cls_02",
+      "name": "B.Tech CSE - 2nd Year (Sem 3)",
+      "department": "Computer Science & Engineering",
+      "semester": "Sem 3",
+      "section": "A",
+      "academicYear": "2026-2027"
+    },
+    {
+      "_id": "cls_03",
+      "name": "B.Tech CSE - 4th Year (Sem 7)",
+      "department": "Computer Science & Engineering",
+      "semester": "Sem 7",
+      "section": "B",
+      "academicYear": "2026-2027"
+    }
+  ],
+  "subjects": [
+    {
+      "_id": "sbj_01",
+      "code": "CS-501",
+      "name": "Database Management Systems",
+      "department": "Computer Science & Engineering",
+      "semester": "Sem 5",
+      "credits": 4,
+      "facultyId": "usr_fac_01",
+      "facultyName": "Prof. Rajesh Sharma"
+    },
+    {
+      "_id": "sbj_02",
+      "code": "CS-502",
+      "name": "Operating Systems",
+      "department": "Computer Science & Engineering",
+      "semester": "Sem 5",
+      "credits": 4,
+      "facultyId": "usr_fac_02",
+      "facultyName": "Dr. Anita Desai"
+    },
+    {
+      "_id": "sbj_03",
+      "code": "CS-503",
+      "name": "Computer Networks",
+      "department": "Computer Science & Engineering",
+      "semester": "Sem 5",
+      "credits": 4,
+      "facultyId": "usr_fac_03",
+      "facultyName": "Prof. Suresh Kumar"
+    },
+    {
+      "_id": "sbj_04",
+      "code": "CS-504",
+      "name": "Software Engineering",
+      "department": "Computer Science & Engineering",
+      "semester": "Sem 5",
+      "credits": 3,
+      "facultyId": "usr_fac_01",
+      "facultyName": "Prof. Rajesh Sharma"
+    }
+  ],
+  "attendanceSessions": [
+    {
+      "_id": "att_01",
+      "date": "2026-10-08",
+      "classGroup": "B.Tech CSE - 3rd Year (Sem 5)",
+      "subjectCode": "CS-501",
+      "subjectName": "Database Management Systems",
+      "facultyId": "usr_fac_01",
+      "facultyName": "Prof. Rajesh Sharma",
+      "records": [
+        {
+          "studentId": "usr_stu_01",
+          "rollNo": "24CS001",
+          "studentName": "Deepak Kumar",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_02",
+          "rollNo": "24CS002",
+          "studentName": "Priya Sharma",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_03",
+          "rollNo": "24CS003",
+          "studentName": "Rahul Verma",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_04",
+          "rollNo": "24CS004",
+          "studentName": "Sneha Patel",
+          "status": "ABSENT",
+          "remarks": "Sick leave"
+        },
+        {
+          "studentId": "usr_stu_05",
+          "rollNo": "24CS005",
+          "studentName": "Amit Kumar",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_06",
+          "rollNo": "24CS006",
+          "studentName": "Ananya Reddy",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_07",
+          "rollNo": "24CS007",
+          "studentName": "Vikram Singh",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_08",
+          "rollNo": "24CS008",
+          "studentName": "Pooja Joshi",
+          "status": "ABSENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_09",
+          "rollNo": "24CS009",
+          "studentName": "Rohan Gupta",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_10",
+          "rollNo": "24CS010",
+          "studentName": "Meera Nair",
+          "status": "PRESENT",
+          "remarks": ""
+        }
+      ],
+      "totalStudents": 10,
+      "presentCount": 8,
+      "absentCount": 2,
+      "percentage": 80,
+      "createdAt": "2026-10-08T10:00:00.000Z"
+    },
+    {
+      "_id": "att_02",
+      "date": "2026-10-09",
+      "classGroup": "B.Tech CSE - 3rd Year (Sem 5)",
+      "subjectCode": "CS-501",
+      "subjectName": "Database Management Systems",
+      "facultyId": "usr_fac_01",
+      "facultyName": "Prof. Rajesh Sharma",
+      "records": [
+        {
+          "studentId": "usr_stu_01",
+          "rollNo": "24CS001",
+          "studentName": "Deepak Kumar",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_02",
+          "rollNo": "24CS002",
+          "studentName": "Priya Sharma",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_03",
+          "rollNo": "24CS003",
+          "studentName": "Rahul Verma",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_04",
+          "rollNo": "24CS004",
+          "studentName": "Sneha Patel",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_05",
+          "rollNo": "24CS005",
+          "studentName": "Amit Kumar",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_06",
+          "rollNo": "24CS006",
+          "studentName": "Ananya Reddy",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_07",
+          "rollNo": "24CS007",
+          "studentName": "Vikram Singh",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_08",
+          "rollNo": "24CS008",
+          "studentName": "Pooja Joshi",
+          "status": "ABSENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_09",
+          "rollNo": "24CS009",
+          "studentName": "Rohan Gupta",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_10",
+          "rollNo": "24CS010",
+          "studentName": "Meera Nair",
+          "status": "PRESENT",
+          "remarks": ""
+        }
+      ],
+      "totalStudents": 10,
+      "presentCount": 9,
+      "absentCount": 1,
+      "percentage": 90,
+      "createdAt": "2026-10-09T10:00:00.000Z"
+    },
+    {
+      "_id": "att_03",
+      "date": "2026-10-10",
+      "classGroup": "B.Tech CSE - 3rd Year (Sem 5)",
+      "subjectCode": "CS-502",
+      "subjectName": "Operating Systems",
+      "facultyId": "usr_fac_02",
+      "facultyName": "Dr. Anita Desai",
+      "records": [
+        {
+          "studentId": "usr_stu_01",
+          "rollNo": "24CS001",
+          "studentName": "Deepak Kumar",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_02",
+          "rollNo": "24CS002",
+          "studentName": "Priya Sharma",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_03",
+          "rollNo": "24CS003",
+          "studentName": "Rahul Verma",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_04",
+          "rollNo": "24CS004",
+          "studentName": "Sneha Patel",
+          "status": "ABSENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_05",
+          "rollNo": "24CS005",
+          "studentName": "Amit Kumar",
+          "status": "ABSENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_06",
+          "rollNo": "24CS006",
+          "studentName": "Ananya Reddy",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_07",
+          "rollNo": "24CS007",
+          "studentName": "Vikram Singh",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_08",
+          "rollNo": "24CS008",
+          "studentName": "Pooja Joshi",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_09",
+          "rollNo": "24CS009",
+          "studentName": "Rohan Gupta",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_10",
+          "rollNo": "24CS010",
+          "studentName": "Meera Nair",
+          "status": "PRESENT",
+          "remarks": ""
+        }
+      ],
+      "totalStudents": 10,
+      "presentCount": 8,
+      "absentCount": 2,
+      "percentage": 80,
+      "createdAt": "2026-10-10T11:00:00.000Z"
+    },
+    {
+      "_id": "att_04",
+      "date": "2026-10-11",
+      "classGroup": "B.Tech CSE - 3rd Year (Sem 5)",
+      "subjectCode": "CS-503",
+      "subjectName": "Computer Networks",
+      "facultyId": "usr_fac_03",
+      "facultyName": "Prof. Suresh Kumar",
+      "records": [
+        {
+          "studentId": "usr_stu_01",
+          "rollNo": "24CS001",
+          "studentName": "Deepak Kumar",
+          "status": "ABSENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_02",
+          "rollNo": "24CS002",
+          "studentName": "Priya Sharma",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_03",
+          "rollNo": "24CS003",
+          "studentName": "Rahul Verma",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_04",
+          "rollNo": "24CS004",
+          "studentName": "Sneha Patel",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_05",
+          "rollNo": "24CS005",
+          "studentName": "Amit Kumar",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_06",
+          "rollNo": "24CS006",
+          "studentName": "Ananya Reddy",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_07",
+          "rollNo": "24CS007",
+          "studentName": "Vikram Singh",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_08",
+          "rollNo": "24CS008",
+          "studentName": "Pooja Joshi",
+          "status": "ABSENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_09",
+          "rollNo": "24CS009",
+          "studentName": "Rohan Gupta",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_10",
+          "rollNo": "24CS010",
+          "studentName": "Meera Nair",
+          "status": "PRESENT",
+          "remarks": ""
+        }
+      ],
+      "totalStudents": 10,
+      "presentCount": 8,
+      "absentCount": 2,
+      "percentage": 80,
+      "createdAt": "2026-10-11T14:00:00.000Z"
+    },
+    {
+      "_id": "att_05",
+      "date": "2026-10-12",
+      "classGroup": "B.Tech CSE - 3rd Year (Sem 5)",
+      "subjectCode": "CS-504",
+      "subjectName": "Software Engineering",
+      "facultyId": "usr_fac_01",
+      "facultyName": "Prof. Rajesh Sharma",
+      "records": [
+        {
+          "studentId": "usr_stu_01",
+          "rollNo": "24CS001",
+          "studentName": "Deepak Kumar",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_02",
+          "rollNo": "24CS002",
+          "studentName": "Priya Sharma",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_03",
+          "rollNo": "24CS003",
+          "studentName": "Rahul Verma",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_04",
+          "rollNo": "24CS004",
+          "studentName": "Sneha Patel",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_05",
+          "rollNo": "24CS005",
+          "studentName": "Amit Kumar",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_06",
+          "rollNo": "24CS006",
+          "studentName": "Ananya Reddy",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_07",
+          "rollNo": "24CS007",
+          "studentName": "Vikram Singh",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_08",
+          "rollNo": "24CS008",
+          "studentName": "Pooja Joshi",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_09",
+          "rollNo": "24CS009",
+          "studentName": "Rohan Gupta",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_10",
+          "rollNo": "24CS010",
+          "studentName": "Meera Nair",
+          "status": "PRESENT",
+          "remarks": ""
+        }
+      ],
+      "totalStudents": 10,
+      "presentCount": 10,
+      "absentCount": 0,
+      "percentage": 100,
+      "createdAt": "2026-10-12T09:30:00.000Z",
+      "updatedAt": "2026-10-12T16:13:56.825Z"
+    },
+    {
+      "_id": "att_1791819987103",
+      "date": "2026-10-15",
+      "classGroup": "B.Tech CSE - 3rd Year (Sem 5)",
+      "subjectCode": "CS-501",
+      "subjectName": "CS-501",
+      "facultyId": "usr_fac_01",
+      "facultyName": "Prof. Rajesh Sharma",
+      "records": [
+        {
+          "studentId": "usr_stu_01",
+          "rollNo": "24CS001",
+          "studentName": "Deepak Kumar",
+          "status": "ABSENT",
+          "remarks": "Edited via test"
+        },
+        {
+          "studentId": "usr_stu_02",
+          "rollNo": "24CS002",
+          "studentName": "Priya Sharma",
+          "status": "PRESENT",
+          "remarks": "Present now"
+        }
+      ],
+      "totalStudents": 2,
+      "presentCount": 1,
+      "absentCount": 1,
+      "percentage": 50,
+      "createdAt": "2026-10-12T15:46:27.103Z",
+      "updatedAt": "2026-10-12T16:13:29.954Z"
+    },
+    {
+      "_id": "att_1791821095150",
+      "date": "2026-10-12",
+      "classGroup": "B.Tech CSE - 3rd Year (Sem 5)",
+      "subjectCode": "CS-501",
+      "subjectName": "Database Management Systems",
+      "facultyId": "usr_fac_01",
+      "facultyName": "Prof. Rajesh Sharma",
+      "records": [
+        {
+          "studentId": "usr_stu_01",
+          "rollNo": "24CS001",
+          "studentName": "Deepak Kumar",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_02",
+          "rollNo": "24CS002",
+          "studentName": "Priya Sharma",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_03",
+          "rollNo": "24CS003",
+          "studentName": "Rahul Verma",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_04",
+          "rollNo": "24CS004",
+          "studentName": "Sneha Patel",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_05",
+          "rollNo": "24CS005",
+          "studentName": "Amit Kumar",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_06",
+          "rollNo": "24CS006",
+          "studentName": "Ananya Reddy",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_07",
+          "rollNo": "24CS007",
+          "studentName": "Vikram Singh",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_08",
+          "rollNo": "24CS008",
+          "studentName": "Pooja Joshi",
+          "status": "ABSENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_09",
+          "rollNo": "24CS009",
+          "studentName": "Rohan Gupta",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_stu_10",
+          "rollNo": "24CS010",
+          "studentName": "Meera Nair",
+          "status": "PRESENT",
+          "remarks": ""
+        },
+        {
+          "studentId": "usr_1791821015781_173",
+          "rollNo": "24EG112D01",
+          "studentName": "Harish",
+          "status": "ABSENT",
+          "remarks": ""
+        }
+      ],
+      "totalStudents": 11,
+      "presentCount": 9,
+      "absentCount": 2,
+      "percentage": 81.8,
+      "createdAt": "2026-10-12T16:04:55.150Z"
+    }
+  ],
+  "marks": [
+    {
+      "_id": "mrk_01",
+      "studentId": "usr_stu_01",
+      "rollNo": "24CS001",
+      "studentName": "Deepak Kumar",
+      "subjectCode": "CS-501",
+      "subjectName": "Database Management Systems",
+      "semester": "B.Tech CSE - 3rd Year (Sem 5)",
+      "mid1": 28,
+      "mid2": 29,
+      "assignment": 19,
+      "total": 76,
+      "grade": "A+",
+      "updatedAt": "2026-10-12T15:46:27.133Z"
+    },
+    {
+      "_id": "mrk_02",
+      "studentId": "usr_stu_01",
+      "rollNo": "24CS001",
+      "studentName": "Deepak Kumar",
+      "subjectCode": "CS-502",
+      "subjectName": "Operating Systems",
+      "semester": "Sem 5",
+      "mid1": 24,
+      "mid2": 25,
+      "assignment": 18,
+      "total": 67,
+      "grade": "A"
+    },
+    {
+      "_id": "mrk_03",
+      "studentId": "usr_stu_01",
+      "rollNo": "24CS001",
+      "studentName": "Deepak Kumar",
+      "subjectCode": "CS-503",
+      "subjectName": "Computer Networks",
+      "semester": "Sem 5",
+      "mid1": 22,
+      "mid2": 26,
+      "assignment": 17,
+      "total": 65,
+      "grade": "A"
+    },
+    {
+      "_id": "mrk_04",
+      "studentId": "usr_stu_01",
+      "rollNo": "24CS001",
+      "studentName": "Deepak Kumar",
+      "subjectCode": "CS-504",
+      "subjectName": "Software Engineering",
+      "semester": "Sem 5",
+      "mid1": 27,
+      "mid2": 28,
+      "assignment": 19,
+      "total": 74,
+      "grade": "A+"
+    },
+    {
+      "_id": "mrk_05",
+      "studentId": "usr_stu_02",
+      "rollNo": "24CS002",
+      "studentName": "Priya Sharma",
+      "subjectCode": "CS-501",
+      "subjectName": "Database Management Systems",
+      "semester": "Sem 5",
+      "mid1": 28,
+      "mid2": 29,
+      "assignment": 20,
+      "total": 77,
+      "grade": "A+"
+    },
+    {
+      "_id": "mrk_06",
+      "studentId": "usr_stu_03",
+      "rollNo": "24CS003",
+      "studentName": "Rahul Verma",
+      "subjectCode": "CS-501",
+      "subjectName": "Database Management Systems",
+      "semester": "Sem 5",
+      "mid1": 20,
+      "mid2": 22,
+      "assignment": 15,
+      "total": 57,
+      "grade": "B+"
+    },
+    {
+      "_id": "mrk_07",
+      "studentId": "usr_stu_04",
+      "rollNo": "24CS004",
+      "studentName": "Sneha Patel",
+      "subjectCode": "CS-501",
+      "subjectName": "Database Management Systems",
+      "semester": "Sem 5",
+      "mid1": 18,
+      "mid2": 19,
+      "assignment": 14,
+      "total": 51,
+      "grade": "B"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+/* Student Dashboard College ERP Styling (#173b70 Theme) */
+
+.student-erp-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f5f9;
+  font-family: Arial, sans-serif;
+  color: #1e293b;
+}
+
+.student-content {
+  flex: 1;
+  padding: 24px 20px;
+}
+
+.student-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Student Profile Card */
+.student-profile-card {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.profile-main-info {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.student-large-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #173b70;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(23, 59, 112, 0.3);
+  flex-shrink: 0;
+}
+
+.profile-text h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #173b70;
+  margin: 0 0 4px;
+}
+
+.profile-sub {
+  font-size: 14px;
+  color: #475569;
+  margin: 0 0 8px;
+}
+
+.profile-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tag-item {
+  font-size: 12px;
+  font-weight: 600;
+  color: #173b70;
+  background-color: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.profile-email-badge {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 12px 16px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.email-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.email-val {
+  font-size: 14px;
+  font-weight: 600;
+  color: #173b70;
+}
+
+/* Attendance KPI Grid */
+.attendance-kpi-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.attendance-kpi-card {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.attendance-kpi-card.highlight-card {
+  border-left: 4px solid #059669;
+}
+
+.kpi-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.kpi-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #64748b;
+}
+
+.criteria-badge {
+  font-size: 11px;
+  font-weight: 700;
+  background-color: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.percentage-number {
+  font-size: 32px;
+  font-weight: 800;
+  color: #059669;
+  line-height: 1.1;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.progress-bar-bg {
+  width: 100%;
+  height: 8px;
+  background-color: #e2e8f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #059669;
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}
+
+.kpi-number {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 6px 0 2px;
+}
+
+.green-stat {
+  color: #059669;
+}
+
+.blue-stat {
+  color: #173b70;
+}
+
+.amber-stat {
+  color: #d97706;
+}
+
+.kpi-subtext {
+  font-size: 12px;
+  color: #64748b;
+  margin: 0;
+}
+
+/* Data Card (Tables) */
+.data-card {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+}
+
+.data-card-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafbfd;
+}
+
+.data-card-header h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #173b70;
+  margin: 0;
+}
+
+.header-meta {
+  font-size: 12px;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.student-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.student-data-table th {
+  background-color: #f8fafc;
+  padding: 12px 18px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.student-data-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.student-data-table tr:hover {
+  background-color: #fafbfd;
+}
+
+.code-pill {
+  font-family: monospace;
+  color: #173b70;
+  background-color: #eff6ff;
+  border: 1px solid #bfdbfe;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.percent-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.percent-val {
+  font-weight: 700;
+  color: #173b70;
+  min-width: 48px;
+}
+
+.mini-bar-bg {
+  flex: 1;
+  max-width: 80px;
+  height: 6px;
+  background-color: #e2e8f0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.mini-bar-fill {
+  height: 100%;
+  background-color: #059669;
+  border-radius: 3px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.status-badge.eligible {
+  background-color: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+}
+
+.grade-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 800;
+  background-color: #eff6ff;
+  color: #173b70;
+  border: 1px solid #bfdbfe;
+}
+
+/* Responsiveness */
+@media (max-width: 960px) {
+  .attendance-kpi-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .attendance-kpi-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .student-profile-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
