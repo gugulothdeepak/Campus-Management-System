@@ -3,7 +3,26 @@
  * Uses Vite proxy (/api -> http://localhost:5000) during development.
  */
 
-const API_BASE = '/api';
+// Automatically determines backend base URL:
+// 1. VITE_API_URL if defined in environment (e.g. Vercel environment variables or .env.production)
+// 2. In cloud production (e.g. Vercel deployment): https://campus-management-system-qdin.onrender.com/api
+// 3. In local development: /api (proxied to localhost:5000 via vite.config.js)
+const getCleanApiBase = () => {
+  const envUrl = import.meta.env.VITE_API_URL;
+  if (envUrl && envUrl.trim()) {
+    return envUrl.trim().replace(/\/+$/, '');
+  }
+  if (
+    typeof window !== 'undefined' &&
+    window.location.hostname !== 'localhost' &&
+    !window.location.hostname.includes('127.0.0.1')
+  ) {
+    return 'https://campus-management-system-qdin.onrender.com/api';
+  }
+  return '/api';
+};
+
+const API_BASE = getCleanApiBase();
 
 // Helper to get stored JWT token
 export function getStoredToken() {
